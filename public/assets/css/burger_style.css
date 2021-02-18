@@ -1,0 +1,46 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+  color: white;
+}
+
+.create-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+img{
+  max-width: 200px;
+  height: auto;
+  max-height: 260px;
+}  
+
+body{
+  text-align: center;
+  background-color: goldenrod;
+}
+
+.column{
+  width: 49%;
+  float: left;
+}
+
+textarea{
+  max-width: auto;
+}
+
+.burger-entry{
+  width:30%;
+  height:150px;
+}
