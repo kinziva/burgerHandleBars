@@ -1,4 +1,3 @@
-USE burgers_db;
 
 INSERT INTO burgers (burger_name,devoured) VALUES ('THE IMPOSSIBLE', false);
 INSERT INTO burgers (burger_name,devoured) VALUES ('JUICY LUCY', false);

@@ -82,7 +82,7 @@ const orm = {
       cb(result);
     });
   },
-  delete(table, condition, cb) {
+  deleteBurger(table, condition, cb) {
     let queryString = `DELETE FROM ${table}`;
     queryString += ' WHERE ';
     queryString += condition;
