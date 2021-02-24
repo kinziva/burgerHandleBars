@@ -1,0 +1,69 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+/* Add a light grey background color on hover */
+ul li:hover {
+  background-color: #eee;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+  max-height: 260px;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+textarea {
+  max-width: auto;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #d8a311;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Green */
+.devour {
+  border-color: #4caf50;
+  color: green;
+}
+
+.devour:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Red */
+.delete-burger {
+  border-color: #f44336;
+  color: red;
+}
+
+.delete-burger:hover {
+  background: #f44336;
+  color: white;
+}
